@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin:0px; padding:0px; }
+img { border:0px; }
+body { background-color:#dff3f4; color: #000000; font-family: Arial,Verdana,sans-serif; font-size: 11px; }
+p{ margin: 0 0 10px 0; }
+h1, h2, h3, h4, h5, h6 { margin: 0 0 10px; }
+h1 { font-size: 18px; }
+a { color:#4F0093; font-weight:bold; }
+#container { margin: auto; background-color:#fff; width:800px; }
+#header { padding:5px 10px 0px; clear:both; height:111px; }
+.topbanner { float:left; }
+.toplinks { float:right; background:#ffffff url('/wp-content/themes/golfgirl/images/grass_bg.gif') right top; height:111px; width:312px; position:relative; }
+.toplinks ul { list-style-image: url("/wp-content/themes/golfgirl/images/golfgirl_flags.gif"); margin: 0 0 0 30px; position:absolute; bottom:20px; }
+#toplinks li { float:left; }
+#toplinks li a{ text-decoration:none; color:#fba0a6; }
+#toplinks .myacc { width:90px; }
+#toplinks .buggycart { width:120px; }
+#toplinks .checkout { width:60px; }
+#border { background-color: #FBA0A6; height: 7px; margin: 5px 10px 0px;}
+#leftmenu { float:left; width:183px; border: 1px solid #b9eb94; margin: 5px 0 0 10px; }
+#maincontent { background-color: #FFFFFF; float: right; width: 600px;}
+.contain { background-color: #CFEDEF; margin: 0 10px 0 0; background-image: url("/wp-content/themes/golfgirl/images/golfgirl_side.gif"); background-repeat: repeat-y; }
+.stretchmainimg { width:570px; height:81px; margin:0px 20px; }
+.ballfooter { margin:0px 20px; }
+.contentfade { background-image: url("/wp-content/themes/golfgirl/images/bottom_hole_extended.jpg"); height:30px; background-repeat: repeat-x; }
+#formalities { clear:both; text-align:right; margin: 0px 10px; padding: 0 20px 0 0; }
+#respond, .navigation, .post { margin: 0 40px; }
+.post{ font-size: 10pt; color: rgb(79, 0, 147); font-family: Arial; clear:both; }
+.post .entry{ margin: 10px 0 0 0; }
+.entry ol{ padding:0 0 19px 30px; }
+.entry h3{clear:both;}
+#sidebar li { list-style:none inside none; }
+#sidebar li a { color: #4F0093; font-family: Verdana,Arial,sans-serif; font-size: 10px; font-weight: bold; text-decoration: none; }
+#leftmenu { font-size: 10px; }
+#leftmenu ul { list-style: none outside none; font-family: Verdana,Arial,sans-serif; }
+#leftmenu ul h2{ background:#b9eb94; padding:5px 0 5px 10px; margin:0px; color: #4F0093; }
+#leftmenu ul li ul { margin:10px; }
+#leftmenu ul li ul li{  padding:0 0 5px; }
+.alignleft { width:50%; float:left; }
+.alignright { width:50%; float:right; text-align:right; }
+ul.children { display:none; }
+
+
+
+.webthumbs img {
+    background-color: #B9EB94;
+    border: 1px solid #4F0093;
+    margin: 15px;
+    padding: 10px;
+}
