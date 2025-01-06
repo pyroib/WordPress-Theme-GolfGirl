@@ -1,4 +1,4 @@
-#  golfgirl.com.au Website
+#  golfgirl.com.au WordPress Themes
 
 A wordpress theme for golfgirl.com.au
 
