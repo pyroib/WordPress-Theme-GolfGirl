@@ -4,7 +4,7 @@ A wordpress theme for golfgirl.com.au
 
 ## Getting Started
 
-This is a wordpress theme. Install the bluewater folder in your wordpress /wp-content/themes/ folder
+This is a wordpress theme. Install the GolfGirl folder in your wordpress /wp-content/themes/ folder
 
 ### Prerequisites
 
@@ -20,7 +20,7 @@ PHP, MySQL
 
 ## Contributing
 
-Projoect no longer taking contributions
+Project no longer taking contributions
 
 ## Authors
 
