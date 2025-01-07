@@ -57,14 +57,14 @@ a {
 
 .toplinks {
     float: right;
-    background: #ffffff url('/wp-content/themes/golfgirl/images/grass_bg.gif') right top;
+    background: #ffffff url('/wp-content/themes/golfgirl/golfgirl/images/grass_bg.gif') right top;
     height: 111px;
     width: 312px;
     position: relative;
 }
 
 .toplinks ul {
-    list-style-image: url("/wp-content/themes/golfgirl/images/golfgirl_flags.gif");
+    list-style-image: url("/wp-content/themes/golfgirl/golfgirl/images/golfgirl_flags.gif");
     margin: 0 0 0 30px;
     position: absolute;
     bottom: 20px;
@@ -113,7 +113,7 @@ a {
 .contain {
     background-color: #CFEDEF;
     margin: 0 10px 0 0;
-    background-image: url("/wp-content/themes/golfgirl/images/golfgirl_side.gif");
+    background-image: url("/wp-content/themes/golfgirl/golfgirl/images/golfgirl_side.gif");
     background-repeat: repeat-y;
 }
 
@@ -121,6 +121,7 @@ a {
     width: 570px;
     height: 81px;
     margin: 0px;
+    float: right;
 }
 
 .ballfooter {
@@ -128,7 +129,7 @@ a {
 }
 
 .contentfade {
-    background-image: url("/wp-content/themes/golfgirl/images/bottom_hole_extended.jpg");
+    background-image: url("/wp-content/themes/golfgirl/golfgirl/images/bottom_hole_extended.jpg");
     height: 30px;
     background-repeat: repeat-x;
 }
@@ -140,6 +141,7 @@ a {
     padding: 0 20px 0 0;
 }
 
+.post-edit-link,
 #respond,
 .navigation,
 .post {

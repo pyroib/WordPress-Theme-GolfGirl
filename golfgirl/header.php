@@ -9,7 +9,7 @@
 		<meta name="generator" content="WordPress <?php bloginfo('version'); ?>" /> <!-- leave this for stats -->
 		<meta name="DESCRIPTION" content="golfgirl provides a modern range of golf clothing and accessories. Everything from caps, skirts, gloves, tees to balls and even a unique driving range bag." />
 		<meta name="KEYWORDS" content="golfgirl, golf clothing, caps, skirts, gloves, tees, balls, driving range bag, golf swing, golf clubs, sportswear, sport, golf courses, fashion, driving, tee off, golf tips, golf swing, putting, Australia" />
-		<link rel="stylesheet" href="http://golfgirl.blott.com.au/wp-content/themes/iblott/style.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css" type="text/css" media="screen" />
 		<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 		<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 		
@@ -31,7 +31,7 @@
 	
 		<div id="container">
 			<div id="header">
-				<div class="topbanner"><a href="/"><img alt="golfgirl" src="http://golfgirl.blott.com.au/wp-content/themes/iblott/images/logo_header.jpg" /></a></div>
+				<div class="topbanner"><a href="/"><img alt="golfgirl" src="<?php echo get_template_directory_uri(); ?>/images/logo_header.jpg" /></a></div>
 				<div class="toplinks">
 					<ul id="toplinks">
 						<li class="myacc"><a href="/">My Account</a></li>

@@ -5,7 +5,7 @@
 				</div>
 				<div id="maincontent">
 					<div class="contain">
-						<img class="stretchmainimg" alt="golfgirl" src="http://golfgirl.blott.com.au/wp-content/themes/iblott/images/main_header.jpg" />
+						<img class="stretchmainimg" alt="golfgirl" src="<?php echo get_template_directory_uri(); ?>/images/main_header.jpg" />
 
 
 
@@ -74,7 +74,7 @@
 
 
 
-							<img class="ballfooter" alt="golfgirl" src="http://golfgirl.blott.com.au/wp-content/themes/iblott/images/bottom_hole.jpg" />
+							<img class="ballfooter" alt="golfgirl" src="<?php echo get_template_directory_uri(); ?>/images/bottom_hole.jpg" />
 						<div class="contentfade"></div>
 					</div>
 				</div>
